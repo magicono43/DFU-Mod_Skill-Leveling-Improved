@@ -1,0 +1,13 @@
+{
+    "ModTitle": "SkillLevelingImproved",
+    "ModVersion": "1.00",
+    "ModAuthor": "Kirk.O",
+    "ContactInfo": "kirkoliveri@gmail.com",
+    "DFUnity_Version": "0.10.23",
+    "ModDescription": "Leveling skills has been improved and work more logically.",
+    "GUID": "480b2dbe-38f9-4284-89d5-6af8c9d97c8b",
+    "Files": [
+        "Assets/Game/Mods/Skill_Leveling_Improved/SkillLevelingImproved.cs",
+        "Assets/Game/Mods/Skill_Leveling_Improved/Skill_Tally_PlayerEntity_Override.cs"
+    ]
+}

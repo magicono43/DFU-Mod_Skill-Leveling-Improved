@@ -5,20 +5,9 @@
 // Last Edited: 	6/3/2020, 9:30 AM
 // Modifier:		
 
-using DaggerfallConnect;
-using DaggerfallWorkshop;
 using DaggerfallWorkshop.Game;
-using DaggerfallWorkshop.Game.Formulas;
-using DaggerfallWorkshop.Game.Entity;
 using DaggerfallWorkshop.Game.Utility.ModSupport;
-using DaggerfallWorkshop.Game.Utility;
-using DaggerfallWorkshop.Game.Items;
-using DaggerfallWorkshop.Utility;
-using DaggerfallWorkshop.Game.UserInterfaceWindows;
-using DaggerfallWorkshop.Game.MagicAndEffects;
-using DaggerfallWorkshop.Game.MagicAndEffects.MagicEffects;
 using UnityEngine;
-using System;
 
 namespace SkillLevelingImproved
 {

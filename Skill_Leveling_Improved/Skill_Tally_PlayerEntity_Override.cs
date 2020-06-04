@@ -1,19 +1,10 @@
 using DaggerfallConnect;
-using DaggerfallWorkshop;
-using DaggerfallWorkshop.Game;
-using DaggerfallWorkshop.Game.Formulas;
-using DaggerfallWorkshop.Game.Entity;
-using DaggerfallWorkshop.Game.Utility.ModSupport;
-using DaggerfallWorkshop.Game.Utility;
-using DaggerfallWorkshop.Game.Items;
-using DaggerfallWorkshop.Utility;
-using DaggerfallWorkshop.Game.UserInterfaceWindows;
-using DaggerfallWorkshop.Game.MagicAndEffects;
-using DaggerfallWorkshop.Game.MagicAndEffects.MagicEffects;
 using UnityEngine;
 using System;
+using DaggerfallWorkshop.Game.Entity;
 
 namespace SkillLevelingImproved
+//namespace DaggerfallWorkshop.Game.Entity
 {
     public class SkillTallyOverride : PlayerEntity
     {
@@ -35,6 +26,8 @@ namespace SkillLevelingImproved
 
             try
             {
+				Debug.Log("AHHHHHHHHHHHHHHHH!!!!!!!!!!");
+				
                 if(skillId == 3)
                 {
                     Debug.Log("You just jumped! You idiot!");
