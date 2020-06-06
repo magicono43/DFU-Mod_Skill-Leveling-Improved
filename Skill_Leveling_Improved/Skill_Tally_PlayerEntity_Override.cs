@@ -2,6 +2,7 @@ using DaggerfallConnect;
 using UnityEngine;
 using System;
 using DaggerfallWorkshop.Game.Entity;
+using DaggerfallWorkshop.Game;
 
 namespace SkillLevelingImproved
 //namespace DaggerfallWorkshop.Game.Entity
