@@ -35,15 +35,9 @@ namespace SkillLevelingImproved
         {
             Debug.Log("Begin mod init: SkillLevelingImproved");
 
-            GameManager.Instance.PlayerEntity = new MyPlayerEntityClass();
+            GameManager.Instance.PlayerEntity = new SkillTallyOverride(GameManager.GetComponentFromObject<DaggerfallEntityBehaviour>(GameManager.Instance.PlayerObject));
 
             Debug.Log("Finished mod init: SkillLevelingImproved");
-        }
-
-        public PlayerEntity playerEntity
-        {
-            get { return (playerEntity != null) ? playerEntity : playerEntity = PlayerEntityBehaviour.Entity as PlayerEntity; }
-            set { playerEntity = value; }
         }
 
         #region Stuff Here
